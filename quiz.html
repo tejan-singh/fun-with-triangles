@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fun with triangles | Tejan Singh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Fun with triangles</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html">is triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="quiz.html">quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="area.html">Area of triangle</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="App">
+      <h1>Quiz on triangles</h1>
+      <h2>For each correct answer you will get 1 point</h2>
+
+      <div class="input">
+        <p>
+          1. What is the third angle for the triangle where angle1 = 45° and angle2
+          = 45°?
+        </p>
+        <input type="radio" name="option1" value="45°" />
+        <label>45°</label>
+        <input type="radio" name="option1" value="90°" />
+        <label>90°</label>
+        <input type="radio" name="option1" value="60°" />
+        <label>60°</label>
+      </div>
+
+      <div class="input">
+        <p>
+          2. A triangle can have
+        </p>
+        <input type="radio" name="option1" value="one right angle" />
+        <label>one right angle</label>
+        <input type="radio" name="option1" value="two right angles" />
+        <label>two right angles</label>
+      </div>
+
+      <div class="input">
+        <p>
+          3. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+        </p>
+        <input type="radio" name="option1" value="obtuse" />
+        <label>obtuse</label>
+        <input type="radio" name="option1" value="acute" />
+        <label>acute</label>
+        <input type="radio" name="option1" value="right angled" />
+        <label>right angled</label>
+      </div>
+
+      <button class="btn">is triangle ?</button>
+      <p id="warning"></p>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

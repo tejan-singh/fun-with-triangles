@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.navigation{
+    border-radius: 0 0 0 1rem;
+    padding: 1rem;
+    background-color: rgb(84, 84, 214);
+}
+
+.nav-brand{
+    font-weight: bold;
+    color: white;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.list-non-bullet{
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  padding: 1rem;
+  margin: 0 auto;
+  height: 95vh;
+}
+
+.btn {
+  background-color: rgb(84, 84, 214);
+  border: none;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: large;
+  color: white;
+}
+
+.input{
+  margin-top: 3rem;
+}
+
+.input-field{
+  padding: 0.5rem;
+  width: 80%;
+  text-align: center;
+}
+
+#warning{
+  color: red;
+}
+
+#result{
+  color: green;
+}
