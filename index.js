@@ -14,13 +14,11 @@ const handleClick = () => {
     if (sum > 180 || sum < 180) {
       warningMsg.innerHTML = "Oh Oh! The angle doesn't form a triangle";
       resultMsg.innerHTML = "";
-      console.log("first")
       return;
     }
 
     warningMsg.innerHTML = "";
     resultMsg.innerHTML = "Yay, the angles form a triangle!";
-    console.log("third")
     return;
   } else {
     warningMsg.innerHTML = "Oh Oh! The angle doesn't form a triangle";
