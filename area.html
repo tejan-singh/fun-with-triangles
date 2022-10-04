@@ -14,7 +14,7 @@
           <a class="link " href="index.html">is triangle?</a>
         </li>
         <li class="list-item-inline"><a class="link" href="quiz.html">quiz</a></li>
-        <li class="list-item-inline"><a class="link" href="hypotenuse.html">Hypotenuse</a></li>
+        <li class="list-item-inline"><a class="link " href="hypotenuse.html">Hypotenuse</a></li>
         <li class="list-item-inline">
           <a class="link link-active" href="area.html">Area of triangle</a>
         </li>
@@ -22,27 +22,21 @@
     </nav>
 
     <div class="App">
-      <h1>Calculate Area of a triangle</h1>
-
+      <h1>Calculate area of a triangle</h1>
+      <h3>formula used: 1/2 * base * height</h3>
       <div class="input">
-        <h2>Enter first side of a triangle
-
-        </h2>
-        <input type="number" class="side1-input-field input-field" />
+        <h2>Enter base value =</h2>
+        <input type="number" class="base-input-field input-field" />
       </div>
 
       <div class="input">
-        <h2>Enter second side of a triangle</h2>
-        <input type="number" class="side2-input-field input-field" />
-      </div>
-
-      <div class="input">
-        <h2>Enter third side of a triangle</h2>
-        <input type="number" class="side3-input-field input-field" />
+        <h2>Enter height value =</h2>
+        <input type="number" class="height-input-field input-field" />
       </div>
 
       <button class="btn">Calculate</button>
       <p id="warning"></p>
+      <p id="result"></p>
     </div>
 
     <script src="area.js"></script>
