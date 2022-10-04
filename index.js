@@ -9,6 +9,7 @@ const handleClick = () => {
   const angleOneValue = Number(angleOneInput.value);
   const angleTwoValue = Number(angleTwoInput.value);
   const angleThreeValue = Number(angleThreeInput.value);
+  const sum = angleOneValue + angleTwoValue + angleThreeValue
   
   if (angleOneValue >= 0 && angleTwoValue >= 0 && angleThreeValue >= 0) {
     if (sum > 180 || sum < 180) {
