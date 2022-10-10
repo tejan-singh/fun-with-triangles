@@ -11,7 +11,7 @@ const handleClick = () => {
   const angleThreeValue = Number(angleThreeInput.value);
   const sum = angleOneValue + angleTwoValue + angleThreeValue
   
-  if (angleOneValue >= 0 && angleTwoValue >= 0 && angleThreeValue >= 0) {
+  if (angleOneValue > 0 && angleTwoValue > 0 && angleThreeValue > 0) {
     if (sum > 180 || sum < 180) {
       warningMsg.innerHTML = "Oh Oh! The angle doesn't form a triangle";
       resultMsg.innerHTML = "";
