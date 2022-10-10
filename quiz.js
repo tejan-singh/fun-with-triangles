@@ -8,8 +8,8 @@ const calculateScore = ()=>{
     var score = 0
     var index = 0
     const data = new FormData(quizForm)
-
     for(let value of data.values()){
+        
         if(value === correctAnswers[index]){
             score = score + 1
         }

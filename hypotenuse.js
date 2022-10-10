@@ -8,7 +8,7 @@ const calculateHypotenuse = (baseValue, heightValue) => {
   const hypotenuse = Math.sqrt(
     baseValue * baseValue + heightValue * heightValue
   );
-  return hypotenuse;
+  return hypotenuse.toFixed(2);
 };
 
 const handleClick = () => {
